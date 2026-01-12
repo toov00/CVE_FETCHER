@@ -1,6 +1,6 @@
 # CVE Fetcher
 
-This is the first component of an AI-powered security monitoring system that tracks CVEs and checks their relevance to blockchain protocols.
+This is the first component of an AI-powered security monitoring system (working on this!) that tracks CVEs and checks their relevance to blockchain protocols.
 
 ## What This Does
 
@@ -25,7 +25,7 @@ pip3 install -r requirements.txt
 
 ## Usage
 
-### Basic Example
+### Set Environment Variables
 
 Modify the variables within config.py:
 
