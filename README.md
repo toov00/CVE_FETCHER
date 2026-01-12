@@ -42,7 +42,7 @@ KEYWORD_SEARCH_TERM = 'blockchain'
 KEYWORD_SEARCH_DAYS = 90
 ```
 
-### Run the Demo
+### Execute the Fetcher
 
 ```bash
 python3 cve_fetcher.py
