@@ -1,4 +1,4 @@
-# CVE Fetcher
+# CVE Scraper
 
 A Python tool that monitors the National Vulnerability Database (NVD) for Common Vulnerabilities and Exposures (CVEs) and filters them based on user-defined keywords to identify relevant security threats.
 
