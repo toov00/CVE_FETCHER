@@ -60,7 +60,14 @@ recent_cves = fetcher.fetch_recent_cves(days=7)
 blockchain_cves = fetcher.search_cves_by_keyword('solidity', days=30)
 ```
 
-## CVE Data Structure
+## Output
+
+Results are saved to `recent_cves.json` by default. The JSON file contains:
+- Array of all fetched CVE objects
+- Pretty-printed with 2-space indentation
+- UTF-8 encoding preserving special characters
+
+### CVE Data Structure
 
 Each CVE object contains:
 
@@ -85,13 +92,6 @@ Each CVE object contains:
 - `affected_products`: Parsed vendor/product combinations from CPE data
 - `references`: URLs to advisories, patches, or exploit details
 - `raw_data`: Full API response for advanced analysis
-
-## Output
-
-Results are saved to `recent_cves.json` by default. The JSON file contains:
-- Array of all fetched CVE objects
-- Pretty-printed with 2-space indentation
-- UTF-8 encoding preserving special characters
 
 ## Keyword Search Tips
 
