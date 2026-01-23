@@ -23,9 +23,7 @@ cd CVE_FETCHER
 pip install -r requirements.txt
 ```
 
-Optional: Get an NVD API key for higher rate limits (5 requests/30sec without key, 50 requests/30sec with key):
-
-Visit [NVD API key request page](https://nvd.nist.gov/developers/request-an-api-key) to get a free API key.
+Optional: Get an [NVD API key ](https://nvd.nist.gov/developers/request-an-api-key) for higher rate limits (5 requests/30sec without key, 50 requests/30sec with key).
 
 ## Usage
 
